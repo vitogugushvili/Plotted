@@ -229,7 +229,7 @@ export default function Home() {
             {todaysMovie.clues.map((clue, index) => (
               <div
                 key={index}
-                className={`bg-[#18181b] border-2 rounded-lg p-4 text-center transition-all duration-300 ${
+                className={`bg-[#18181b] border-2 rounded-lg p-4 text-center transition-all duration-300 min-h-[80px] flex items-center justify-center ${
                   index < gameState.cluesRevealed
                     ? "border-indigo-500/50 opacity-100 transform scale-100"
                     : "border-[#27272a] opacity-30 transform scale-95"

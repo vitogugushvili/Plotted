@@ -101,7 +101,6 @@ export default function HowToPlayModal({ onClose }: HowToPlayModalProps) {
             </h3>
             <ul className="space-y-2 list-disc list-inside">
               <li>Think about what words connect to popular movies</li>
-              <li>Use the skip button if you're stuck and want more clues</li>
               <li>The clues get progressively more helpful!</li>
               <li>A new movie puzzle is available every day!</li>
             </ul>
